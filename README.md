@@ -1,5 +1,3 @@
-## This project is only for practice purpose, all resources used are open-source.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
