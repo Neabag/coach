@@ -1,0 +1,1688 @@
+[
+    {
+      "displayName": "Price",
+      "attributeID": "",
+      "cutoffThreshold": 0,
+      "type": "price refinement",
+      "minValue": 0,
+      "maxValue": 100000.01
+    },
+    {
+      "displayName": "Color",
+      "attributeID": "colorVal",
+      "cutoffThreshold": 100,
+      "type": "attribute refinement",
+      "value": [
+        {
+          "refvalue": "Red",
+          "selectable": true,
+          "hitCount": 290,
+          "swatchID": "#FF0000"
+        },
+        {
+          "refvalue": "Orange",
+          "selectable": true,
+          "hitCount": 38,
+          "swatchID": "#ffa500"
+        },
+        {
+          "refvalue": "Yellow",
+          "selectable": true,
+          "hitCount": 223,
+          "swatchID": "#FFFF00"
+        },
+        {
+          "refvalue": "Gold",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": "#FFD700"
+        },
+        {
+          "refvalue": "Green",
+          "selectable": true,
+          "hitCount": 233,
+          "swatchID": "#008000"
+        },
+        {
+          "refvalue": "Blue",
+          "selectable": true,
+          "hitCount": 591,
+          "swatchID": "#0000FF"
+        },
+        {
+          "refvalue": "Purple",
+          "selectable": true,
+          "hitCount": 49,
+          "swatchID": "#800080"
+        },
+        {
+          "refvalue": "Pink",
+          "selectable": true,
+          "hitCount": 435,
+          "swatchID": "#FFC0CB"
+        },
+        {
+          "refvalue": "White",
+          "selectable": true,
+          "hitCount": 580,
+          "swatchID": "#FFFFFF"
+        },
+        {
+          "refvalue": "Beige",
+          "selectable": true,
+          "hitCount": 471,
+          "swatchID": "#F5F5DC"
+        },
+        {
+          "refvalue": "Silver",
+          "selectable": true,
+          "hitCount": 11,
+          "swatchID": "#C0C0C0"
+        },
+        {
+          "refvalue": "black",
+          "selectable": true,
+          "hitCount": 1281,
+          "swatchID": "#000000"
+        },
+        {
+          "refvalue": "Black",
+          "selectable": true,
+          "hitCount": 1281,
+          "swatchID": "#000000"
+        },
+        {
+          "refvalue": "brown",
+          "selectable": true,
+          "hitCount": 522,
+          "swatchID": "#964B00"
+        },
+        {
+          "refvalue": "Brown",
+          "selectable": true,
+          "hitCount": 522,
+          "swatchID": "#964B00"
+        },
+        {
+          "refvalue": "Gray",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": "#808080"
+        },
+        {
+          "refvalue": "Ivory",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": "#FFFFF0"
+        },
+        {
+          "refvalue": "Multi",
+          "selectable": true,
+          "hitCount": 313,
+          "swatchID": "#9400D3,#4B0082,#0000FF,#00FF00,#FFFF00,#FF7F00,#FF0000"
+        },
+        {
+          "refvalue": "beige/black/brown",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "beige/brown",
+          "selectable": true,
+          "hitCount": 106,
+          "swatchID": null
+        },
+        {
+          "refvalue": "beige/brown/black",
+          "selectable": true,
+          "hitCount": 57,
+          "swatchID": null
+        },
+        {
+          "refvalue": "beige/multi",
+          "selectable": true,
+          "hitCount": 2,
+          "swatchID": null
+        },
+        {
+          "refvalue": "beige/white",
+          "selectable": true,
+          "hitCount": 27,
+          "swatchID": null
+        },
+        {
+          "refvalue": "black/beige/brown",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "black/blue",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "black/brown",
+          "selectable": true,
+          "hitCount": 11,
+          "swatchID": null
+        },
+        {
+          "refvalue": "black/pink",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "black/white",
+          "selectable": true,
+          "hitCount": 14,
+          "swatchID": null
+        },
+        {
+          "refvalue": "blue/grey",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "blue/red",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "blue/white",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "brown/beige",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "brown/black",
+          "selectable": true,
+          "hitCount": 20,
+          "swatchID": null
+        },
+        {
+          "refvalue": "brown/multi",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "brown/white",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "burgundy",
+          "selectable": true,
+          "hitCount": 10,
+          "swatchID": null
+        },
+        {
+          "refvalue": "grey",
+          "selectable": true,
+          "hitCount": 316,
+          "swatchID": null
+        },
+        {
+          "refvalue": "grey/black",
+          "selectable": true,
+          "hitCount": 4,
+          "swatchID": null
+        },
+        {
+          "refvalue": "multi/yellow",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "navy",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "pink/beige",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "pink/brown",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "pink/white",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "red/brown",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "red/burgundy",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "red/multi",
+          "selectable": true,
+          "hitCount": 8,
+          "swatchID": null
+        },
+        {
+          "refvalue": "red/white",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "test",
+          "selectable": true,
+          "hitCount": 7,
+          "swatchID": null
+        },
+        {
+          "refvalue": "white/beige",
+          "selectable": true,
+          "hitCount": 23,
+          "swatchID": null
+        },
+        {
+          "refvalue": "white/blue",
+          "selectable": true,
+          "hitCount": 11,
+          "swatchID": null
+        },
+        {
+          "refvalue": "white/green",
+          "selectable": true,
+          "hitCount": 8,
+          "swatchID": null
+        },
+        {
+          "refvalue": "white/orange",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "white/pink",
+          "selectable": true,
+          "hitCount": 10,
+          "swatchID": null
+        },
+        {
+          "refvalue": "white/pink/blue",
+          "selectable": true,
+          "hitCount": 22,
+          "swatchID": null
+        },
+        {
+          "refvalue": "yellow/pink",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        }
+      ],
+      "refinementType": "refinementColorStyle"
+    },
+    {
+      "displayName": "Online Exclusive",
+      "attributeID": "onlineExclusive",
+      "cutoffThreshold": 5,
+      "type": "attribute refinement",
+      "value": [
+        {
+          "refvalue": "false",
+          "selectable": true,
+          "hitCount": 827,
+          "swatchID": null
+        },
+        {
+          "refvalue": "true",
+          "selectable": true,
+          "hitCount": 57,
+          "swatchID": null
+        }
+      ],
+      "refinementType": "refinementDefaultStyle"
+    },
+    {
+      "displayName": "model",
+      "attributeID": "model",
+      "cutoffThreshold": 5,
+      "type": "attribute refinement",
+      "value": [
+        
+      ],
+      "refinementType": "searchRefinementsToHide"
+    },
+    {
+      "displayName": "Categories",
+      "attributeID": "filterCategory",
+      "cutoffThreshold": 5,
+      "type": "attribute refinement",
+      "value": [
+        {
+          "refvalue": "3.4 OZ",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "32X32",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "ACCORDION WALLET",
+          "selectable": true,
+          "hitCount": 9,
+          "swatchID": null
+        },
+        {
+          "refvalue": "ANKLE BOOTIES",
+          "selectable": true,
+          "hitCount": 46,
+          "swatchID": null
+        },
+        {
+          "refvalue": "AVIATOR",
+          "selectable": true,
+          "hitCount": 20,
+          "swatchID": null
+        },
+        {
+          "refvalue": "Baby Bags",
+          "selectable": true,
+          "hitCount": 12,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BACKPACKS",
+          "selectable": true,
+          "hitCount": 117,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BAG CHARMS",
+          "selectable": true,
+          "hitCount": 72,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BALLET FLAT",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BANDANA",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BANGLE",
+          "selectable": true,
+          "hitCount": 68,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BELT",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BELT BAG",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BIFOLD CARD CASES",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BLOUSE",
+          "selectable": true,
+          "hitCount": 45,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BODY CREAM",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BOOKMARK",
+          "selectable": true,
+          "hitCount": 15,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BOOTIE",
+          "selectable": true,
+          "hitCount": 25,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BOOTS",
+          "selectable": true,
+          "hitCount": 80,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BOOTS/BOOTIES",
+          "selectable": true,
+          "hitCount": 67,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BRACELET",
+          "selectable": true,
+          "hitCount": 96,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BRACELETS",
+          "selectable": true,
+          "hitCount": 9,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BREAST POCKETS WALLETS",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "Buckets",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BUSINESS CASES",
+          "selectable": true,
+          "hitCount": 15,
+          "swatchID": null
+        },
+        {
+          "refvalue": "BUTTERFLY",
+          "selectable": true,
+          "hitCount": 19,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CANNABIS HOLDER",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "Cap",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CAPE",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CARD CASES",
+          "selectable": true,
+          "hitCount": 59,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CARDIGAN",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CARD WALLET",
+          "selectable": true,
+          "hitCount": 13,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CARRY",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CARRYALLS",
+          "selectable": true,
+          "hitCount": 69,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CAT EYE",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CHARMS",
+          "selectable": true,
+          "hitCount": 16,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CHELSEA/JODPHER BOOTIES",
+          "selectable": true,
+          "hitCount": 25,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CLASSIC",
+          "selectable": true,
+          "hitCount": 32,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CLIP ON POUCH",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CLOGS",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CLUBMASTER",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "COAT",
+          "selectable": true,
+          "hitCount": 44,
+          "swatchID": null
+        },
+        {
+          "refvalue": "COIN CASES",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "COIN WALLETS",
+          "selectable": true,
+          "hitCount": 8,
+          "swatchID": null
+        },
+        {
+          "refvalue": "COLLAR",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "COMPACT ID WALLET",
+          "selectable": true,
+          "hitCount": 37,
+          "swatchID": null
+        },
+        {
+          "refvalue": "COSMETIC CASES",
+          "selectable": true,
+          "hitCount": 12,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CREW NECK",
+          "selectable": true,
+          "hitCount": 30,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CROSSBODY",
+          "selectable": true,
+          "hitCount": 320,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CUP HOLDER",
+          "selectable": true,
+          "hitCount": 13,
+          "swatchID": null
+        },
+        {
+          "refvalue": "CUT",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "DERBY",
+          "selectable": true,
+          "hitCount": 28,
+          "swatchID": null
+        },
+        {
+          "refvalue": "DIAMOND",
+          "selectable": true,
+          "hitCount": 14,
+          "swatchID": null
+        },
+        {
+          "refvalue": "DOUBLE BILLFOLD WALLETS",
+          "selectable": true,
+          "hitCount": 13,
+          "swatchID": null
+        },
+        {
+          "refvalue": "DOWN JACKET",
+          "selectable": true,
+          "hitCount": 29,
+          "swatchID": null
+        },
+        {
+          "refvalue": "DRESS",
+          "selectable": true,
+          "hitCount": 150,
+          "swatchID": null
+        },
+        {
+          "refvalue": "DRIVERS",
+          "selectable": true,
+          "hitCount": 125,
+          "swatchID": null
+        },
+        {
+          "refvalue": "DUFFLES",
+          "selectable": true,
+          "hitCount": 24,
+          "swatchID": null
+        },
+        {
+          "refvalue": "EARBUD CASE",
+          "selectable": true,
+          "hitCount": 8,
+          "swatchID": null
+        },
+        {
+          "refvalue": "EARRING",
+          "selectable": true,
+          "hitCount": 72,
+          "swatchID": null
+        },
+        {
+          "refvalue": "ESPADRILLES",
+          "selectable": true,
+          "hitCount": 60,
+          "swatchID": null
+        },
+        {
+          "refvalue": "FACE MASK",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "FASHION FLAT",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "FIELD JACKET",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "FLAT SANDAL",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "FLIP FLOP",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "FOLIO",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "Fragrance",
+          "selectable": true,
+          "hitCount": 9,
+          "swatchID": null
+        },
+        {
+          "refvalue": "GIFT SET",
+          "selectable": true,
+          "hitCount": 18,
+          "swatchID": null
+        },
+        {
+          "refvalue": "GLOVE",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "GYM BAG",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HANDKERCHIEF",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HANGTAG",
+          "selectable": true,
+          "hitCount": 33,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HARNESS",
+          "selectable": true,
+          "hitCount": 12,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HARNESS/PLAQUE",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HARNESS/SCULPTED C",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HAT",
+          "selectable": true,
+          "hitCount": 9,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HEEL SANDALS",
+          "selectable": true,
+          "hitCount": 56,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HEXAGON",
+          "selectable": true,
+          "hitCount": 7,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HIGH TOP SNEAKER",
+          "selectable": true,
+          "hitCount": 64,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HOODIE",
+          "selectable": true,
+          "hitCount": 45,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HOOP",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HORSE AND CARRIAGE",
+          "selectable": true,
+          "hitCount": 38,
+          "swatchID": null
+        },
+        {
+          "refvalue": "HUGGIE",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "ID HOLDER",
+          "selectable": true,
+          "hitCount": 2,
+          "swatchID": null
+        },
+        {
+          "refvalue": "JACKET",
+          "selectable": true,
+          "hitCount": 181,
+          "swatchID": null
+        },
+        {
+          "refvalue": "JEANS",
+          "selectable": true,
+          "hitCount": 9,
+          "swatchID": null
+        },
+        {
+          "refvalue": "JELLY",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "JEWELRY BOX",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "JUICE",
+          "selectable": true,
+          "hitCount": 27,
+          "swatchID": null
+        },
+        {
+          "refvalue": "KEY CASES",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "KEY FOB",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "KEY RING",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "KNEE HIGH BOOTS",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LACES",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LACE UP BOOTIES",
+          "selectable": true,
+          "hitCount": 95,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LACE UPS",
+          "selectable": true,
+          "hitCount": 26,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LANYARD CARD CASE",
+          "selectable": true,
+          "hitCount": 9,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LARGE WRISTLETS",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LARGE ZIP AROUND",
+          "selectable": true,
+          "hitCount": 43,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LEASH",
+          "selectable": true,
+          "hitCount": 11,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LEATHER JACKET",
+          "selectable": true,
+          "hitCount": 136,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LOAFERS",
+          "selectable": true,
+          "hitCount": 141,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LOW TOP SNEAKER",
+          "selectable": true,
+          "hitCount": 387,
+          "swatchID": null
+        },
+        {
+          "refvalue": "LUGGAGE TAG",
+          "selectable": true,
+          "hitCount": 4,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MEDIUM WALLET",
+          "selectable": true,
+          "hitCount": 7,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MEDIUM ZIP AROUND",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MESSENGERS",
+          "selectable": true,
+          "hitCount": 35,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MID TOP SNEAKER",
+          "selectable": true,
+          "hitCount": 94,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MINI SKINNY",
+          "selectable": true,
+          "hitCount": 13,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MONEY CLIP",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MONEY CLIP CARD CASES",
+          "selectable": true,
+          "hitCount": 7,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MOUSE PAD",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MUFFLER",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "MULTIFUNCTIONS",
+          "selectable": true,
+          "hitCount": 47,
+          "swatchID": null
+        },
+        {
+          "refvalue": "NAVIGATOR",
+          "selectable": true,
+          "hitCount": 10,
+          "swatchID": null
+        },
+        {
+          "refvalue": "NECKLACE",
+          "selectable": true,
+          "hitCount": 46,
+          "swatchID": null
+        },
+        {
+          "refvalue": "OBLONG",
+          "selectable": true,
+          "hitCount": 17,
+          "swatchID": null
+        },
+        {
+          "refvalue": "ORNAMENT",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "OTHER",
+          "selectable": true,
+          "hitCount": 13,
+          "swatchID": null
+        },
+        {
+          "refvalue": "OVERSIZED SQUARE",
+          "selectable": true,
+          "hitCount": 23,
+          "swatchID": null
+        },
+        {
+          "refvalue": "OVER THE KNEE BOOT",
+          "selectable": true,
+          "hitCount": 26,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PANT",
+          "selectable": true,
+          "hitCount": 185,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PAPER",
+          "selectable": true,
+          "hitCount": 17,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PARKA",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PASSPORT CASE",
+          "selectable": true,
+          "hitCount": 10,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PATCHES",
+          "selectable": true,
+          "hitCount": 19,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PEACOAT",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PENDANT",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PHONE CASE",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PHONE CROSSBODY",
+          "selectable": true,
+          "hitCount": 15,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PHONE FOLIO",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PLAQUE",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PORTFOLIOS",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "POUCH",
+          "selectable": true,
+          "hitCount": 66,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PRODUCT CARE",
+          "selectable": true,
+          "hitCount": 16,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PUMPS",
+          "selectable": true,
+          "hitCount": 79,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PURSE SPRAY",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "PUZZLE",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "QUILTED JACKET",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "RAIN BOOTIES",
+          "selectable": true,
+          "hitCount": 34,
+          "swatchID": null
+        },
+        {
+          "refvalue": "RECTANGULAR",
+          "selectable": true,
+          "hitCount": 16,
+          "swatchID": null
+        },
+        {
+          "refvalue": "RIDING BOOTS",
+          "selectable": true,
+          "hitCount": 21,
+          "swatchID": null
+        },
+        {
+          "refvalue": "RING",
+          "selectable": true,
+          "hitCount": 21,
+          "swatchID": null
+        },
+        {
+          "refvalue": "ROUND",
+          "selectable": true,
+          "hitCount": 18,
+          "swatchID": null
+        },
+        {
+          "refvalue": "RUNNER",
+          "selectable": true,
+          "hitCount": 28,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SANDALS",
+          "selectable": true,
+          "hitCount": 11,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SANDALS/SLIDES",
+          "selectable": true,
+          "hitCount": 35,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SATCHELS",
+          "selectable": true,
+          "hitCount": 98,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SCULPTED C",
+          "selectable": true,
+          "hitCount": 66,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SHEARLING",
+          "selectable": true,
+          "hitCount": 34,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SHIRT",
+          "selectable": true,
+          "hitCount": 19,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SHORTS",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SHOULDER BAG",
+          "selectable": true,
+          "hitCount": 260,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SHOULDER BAGs",
+          "selectable": true,
+          "hitCount": 13,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SHOWER SLIDES",
+          "selectable": true,
+          "hitCount": 46,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SILK SQUARE",
+          "selectable": true,
+          "hitCount": 16,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SINGLE BILLFOLD WALLETS",
+          "selectable": true,
+          "hitCount": 10,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SIZED BELT",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SKIMMERS",
+          "selectable": true,
+          "hitCount": 7,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SKINNY",
+          "selectable": true,
+          "hitCount": 13,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SKINNY WALLET",
+          "selectable": true,
+          "hitCount": 10,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SKIRT",
+          "selectable": true,
+          "hitCount": 117,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SLIDES",
+          "selectable": true,
+          "hitCount": 148,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SLIM BILLFOLD WALLETS",
+          "selectable": true,
+          "hitCount": 33,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SLIM BRIEF",
+          "selectable": true,
+          "hitCount": 27,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SLINGS",
+          "selectable": true,
+          "hitCount": 19,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SLIP ON SNEAKER",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SLIPPER",
+          "selectable": true,
+          "hitCount": 7,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SMALL ACCORDIAN ZIP",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SMALL CROSSBODY",
+          "selectable": true,
+          "hitCount": 22,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SMALL WALLET",
+          "selectable": true,
+          "hitCount": 21,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SMALL WRISTLETS",
+          "selectable": true,
+          "hitCount": 16,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SMALL ZIP AROUND",
+          "selectable": true,
+          "hitCount": 12,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SOCKS",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SOFT WALLET",
+          "selectable": true,
+          "hitCount": 12,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SOUVENIR PINS",
+          "selectable": true,
+          "hitCount": 10,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SQUARE",
+          "selectable": true,
+          "hitCount": 46,
+          "swatchID": null
+        },
+        {
+          "refvalue": "STRAPS",
+          "selectable": true,
+          "hitCount": 75,
+          "swatchID": null
+        },
+        {
+          "refvalue": "STUD",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SUNWEAR SILHOUETTE",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SWEATER",
+          "selectable": true,
+          "hitCount": 82,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SWEATSHIRT",
+          "selectable": true,
+          "hitCount": 82,
+          "swatchID": null
+        },
+        {
+          "refvalue": "SWING PACKS",
+          "selectable": true,
+          "hitCount": 14,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TECH SLEEVE",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TOP",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TOTES",
+          "selectable": true,
+          "hitCount": 117,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TRAVEL ACCESSORIES",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TRAVEL KITS",
+          "selectable": true,
+          "hitCount": 6,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TRAY",
+          "selectable": true,
+          "hitCount": 5,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TRENCH",
+          "selectable": true,
+          "hitCount": 92,
+          "swatchID": null
+        },
+        {
+          "refvalue": "TRIFOLD WALLETS",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "T SHIRT",
+          "selectable": true,
+          "hitCount": 148,
+          "swatchID": null
+        },
+        {
+          "refvalue": "VEST",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "WAYFARER",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "WEDGE SANDALS",
+          "selectable": true,
+          "hitCount": 22,
+          "swatchID": null
+        },
+        {
+          "refvalue": "WRAP",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "Wristlet",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "ZIP CARD CASE",
+          "selectable": true,
+          "hitCount": 22,
+          "swatchID": null
+        }
+      ],
+      "refinementType": "refinementCheckboxStyle"
+    },
+    {
+      "displayName": "Is Early Access",
+      "attributeID": "isEarlyAccess",
+      "cutoffThreshold": 5,
+      "type": "attribute refinement",
+      "value": [
+        
+      ],
+      "refinementType": "searchRefinementsToHide"
+    },
+    {
+      "displayName": "Employee Sale",
+      "attributeID": "isEmployeeSale",
+      "cutoffThreshold": 5,
+      "type": "attribute refinement",
+      "value": [
+        
+      ],
+      "refinementType": "searchRefinementsToHide"
+    },
+    {
+      "displayName": "Material",
+      "attributeID": "fabrication",
+      "cutoffThreshold": 100,
+      "type": "attribute refinement",
+      "refinementType": "refinementDefaultStyle"
+    },
+    {
+      "displayName": "Size",
+      "attributeID": "bagSize",
+      "cutoffThreshold": 5,
+      "type": "attribute refinement",
+      "value": [
+        {
+          "refvalue": "5",
+          "selectable": true,
+          "hitCount": 1,
+          "swatchID": null
+        },
+        {
+          "refvalue": "12",
+          "selectable": true,
+          "hitCount": 3,
+          "swatchID": null
+        },
+        {
+          "refvalue": "2\"",
+          "selectable": false,
+          "hitCount": 0,
+          "swatchID": null
+        },
+        {
+          "refvalue": "4\"",
+          "selectable": true,
+          "hitCount": 1,
+          "swatchID": null
+        },
+        {
+          "refvalue": "large",
+          "selectable": true,
+          "hitCount": 361,
+          "swatchID": null
+        },
+        {
+          "refvalue": "medium",
+          "selectable": true,
+          "hitCount": 339,
+          "swatchID": null
+        },
+        {
+          "refvalue": "mini",
+          "selectable": true,
+          "hitCount": 325,
+          "swatchID": null
+        }
+      ],
+      "refinementType": "refinementDefaultStyle"
+    },
+    {
+      "displayName": "Gender",
+      "attributeID": "gender",
+      "cutoffThreshold": 5,
+      "type": "attribute refinement",
+      "value": [
+        {
+          "refvalue": "All",
+          "selectable": true,
+          "hitCount": 34,
+          "swatchID": null
+        },
+        {
+          "refvalue": "Men",
+          "selectable": true,
+          "hitCount": 1906,
+          "swatchID": null
+        },
+        {
+          "refvalue": "Women",
+          "selectable": true,
+          "hitCount": 4362,
+          "swatchID": null
+        }
+      ],
+      "refinementType": "refinementDefaultStyle"
+    }
+  ]

@@ -2,20 +2,35 @@
   "name": "coach",
   "version": "0.1.0",
   "private": true,
+  "proxy":"https://development.coach.com",
   "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.2",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "canned": "^0.3.13",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.3",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^4.0.3",
+    "react-slick": "^0.28.1",
+    "web-vitals": "^1.1.2",
+    "node-sass": "^6.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "reactstart": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node server.js",
+    "start": "npm-run-all --parallel reactstart server"
   },
   "eslintConfig": {
     "extends": [
