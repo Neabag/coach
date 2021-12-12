@@ -25,12 +25,13 @@ function App() {
         <main className="">
         <Routes>
           <Route path="PDP" element={<PDP/>}>
-            <Route path =":pid/:price" element={<PDP/>}/>
+          <Route path =":pid" element={<PDP/>}/>
+            <Route path =":pid/:varient" element={<PDP/>}/>
           </Route>
           <Route path="PLP" element={<PLP />}>
             <Route path=":categoryId" element={<PLP/>}></Route>
           </Route>
-          <Route path="*" element={<Navigate to="plp/new"/>}></Route>
+          <Route path="**" element={<Navigate to="plp/new"/>}></Route>
         </Routes>
         </main>
         <Footer/>

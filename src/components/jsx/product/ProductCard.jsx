@@ -15,7 +15,7 @@ function ProductCard(props) {
     return (
         <div className="card pr-3 pr-md-0">
           <div className="product-card">
-            <div className="product-card__img" onClick={()=>{navigate("/PDP/"+props.product.activeProductData.pid +"/"+ props.product.minPrices)}}>
+            <div className="product-card__img" onClick={()=>{navigate("/PDP/"+ encodeURI(props.product.activeProductData.pid))}}>
               <img src={props.product.image}  alt="product pic"/>
               <button className="quick-view text-center">
                 {"QUICK VIEW"}
@@ -27,7 +27,7 @@ function ProductCard(props) {
                 
               </button>
             </div>
-            <div className="product-details" onClick={()=>{navigate("/PDP/"+props.product.activeProductData.pid +"/"+ props.product.minPrices)}}>
+            <div className="product-details" onClick={()=>{navigate("/PDP/"+ encodeURI(props.product.activeProductData.pid))}}>
               <div className="product-name">
                 {props.product.name}
               </div>

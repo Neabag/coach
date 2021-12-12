@@ -1,8 +1,28 @@
 .prduct-details-page {
     .product-img-wrapper{
-        flex: 0 0 45%;
+        flex: 0 0 50%;
         img {
             width: 100%;
+        }
+    }
+    .product-details {
+        flex: 0 0 33%;
+        .product-name, .product-price {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .variant-item{
+            border: none;
+            outline: none;
+            flex: 0 0 calc(32% - 5px);
+            img{
+                width: 80px;
+                height: 100px;
+            }
+            &.selected{
+                border: 1px solid #000;
+            }
+            
         }
     }
 }
