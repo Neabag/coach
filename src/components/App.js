@@ -31,7 +31,7 @@ function App() {
           <Route path="PLP" element={<PLP />}>
             <Route path=":categoryId" element={<PLP/>}></Route>
           </Route>
-          <Route path="**" element={<Navigate to="plp/new"/>}></Route>
+          <Route path="*" element={<Navigate to="plp/new"/>}></Route>
         </Routes>
         </main>
         <Footer/>

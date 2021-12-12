@@ -11,7 +11,6 @@ function Sorting(props) {
     props.click(index)
   }
   useEffect(() => {
-    console.log("sorting effect");
     setSelectedSorting(props.sortingData.length ? props.sortingData[props.sortingData.length-1]: {});
   }, [props.sortingData]);
 

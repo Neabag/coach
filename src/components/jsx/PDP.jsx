@@ -12,14 +12,12 @@ function PDP() {
     const [selectedVariant, setSelectedVariant] = useState();
     useEffect(() => {
       axios.get(endPoints.pdp+"/"+pid).then((res)=>{
-        console.log("printing product data",res.data);
         setProductData(res.data);
         setSelectedVariant(res.data.defaultColor);
       })
     }, [pid]);
 
     const selectSwatch =(item)=>{
-      console.log("monkey clicked", item);
       setSelectedVariant(item);
       setProductData({...productData, "thumbnail":item.media.thumbnail})
     }

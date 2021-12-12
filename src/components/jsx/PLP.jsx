@@ -1,5 +1,5 @@
 import React ,{useState, useEffect} from 'react';
-import {NavLink, useParams} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import axios from 'axios';
 
 import endPoints from '../endpoints';
@@ -39,7 +39,6 @@ function PLP(props) {
     }
 
     const fliterByCategoryGender = (gender)=>{
-        console.log("printing", gender);
         let filteredData =[];
         axios.get(endPoints.products+"/"+categoryId).then(function(res){
             filteredData = res.data.hits;

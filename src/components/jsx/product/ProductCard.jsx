@@ -8,7 +8,6 @@ import ProductRatings from './ProductRatings';
 function ProductCard(props) {
     const [sfl, setSfl]=useState(false);
     const saveForLater=(e)=>{
-      e.stopPropagation()
       setSfl(!sfl);
     }
     const navigate = useNavigate();

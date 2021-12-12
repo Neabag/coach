@@ -7,7 +7,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FilterBox from './FilterBox' ;
 function Filter(props) {
     const filterByGender =(filter)=>{
-        console.log('monkey cliked', filter);
         props.gender(filter);
     }
     let filterOptions = "";
