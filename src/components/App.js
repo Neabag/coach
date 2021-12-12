@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header categories={categories}/>
-        <main className="">
+        <main className="main-content">
         <Routes>
           <Route path="PDP" element={<PDP/>}>
           <Route path =":pid" element={<PDP/>}/>
