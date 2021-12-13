@@ -25,9 +25,9 @@ function App() {
         <main className="main-content">
         <Routes>
           <Route path="PDP" element={<PDP/>}>
-          <Route path =":pid" element={<PDP/>}/>
-            <Route path =":pid/:varient" element={<PDP/>}/>
-          </Route>
+            <Route path =":pid" element={<PDP/>}/>
+              <Route path =":pid/:varient" element={<PDP/>}/>
+            </Route>
           <Route path="PLP" element={<PLP />}>
             <Route path=":categoryId" element={<PLP/>}></Route>
           </Route>

@@ -23,15 +23,16 @@ function PLP(props) {
             setSortingOptions(res.data.sortingOptions);
             setFilters(res.data.refinements);
             setAllProducts(res.data.hits);
-            setProducts(res.data.hits);
+            setProducts(res.data.hits.slice(0,8));
           });
     }, [categoryId]);
 
     const lazyLoad =(e)=>{
         console.log("scrolled");
-        if (count < 3 ) {
+        if (count < 4 ) {
             let lazyLoadedProducts = allProduct.slice(0, 8*(count+1));
             setCount(count+1);
+            console.log("testing");
             setProducts(lazyLoadedProducts);
         }
         return;
@@ -65,13 +66,13 @@ function PLP(props) {
     }
 
     return (
-        <div className="d-md-flex" onScroll ={(e)=>lazyLoad(e)}>
+        <div className="d-md-flex">
             <div className="filters left-side d-none d-md-flex">
                 <Filters filters = {filters} filterBygender = {fliterByCategoryGender}/>
             </div>
             <div className="d-flex flex-column">
                 <Sorting sortingData = {sortingOptions} click={sortProducts}/>
-                {products.length ? <div className="card-group allproducts">{products.map((item,index)=>{
+                {products.length ? <div className="card-group allproducts" onScroll ={(e)=>lazyLoad(e)}>{products.map((item,index)=>{
                     return(
                     <ProductCard key ={index} product ={item}/>
                 )})}</div>: <Spinner/>}

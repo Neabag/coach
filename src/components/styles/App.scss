@@ -109,8 +109,10 @@
     right: 40%;
     bottom: 50%
 }
-
-
+.allproducts {
+    overflow-y: auto;
+    height: 100vh;
+}
 /* product card css */
 @import "product-card";
 @import "product-details";
